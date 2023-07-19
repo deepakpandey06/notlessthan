@@ -5,8 +5,8 @@ import requests
 from pymongo import MongoClient
 
 # Set up MongoDB connection
-mongo_client = MongoClient('mongodb://your_mongodb_uri')
-db = mongo_client['your_database_name']
+mongo_client = MongoClient('mongodb+srv://newuserih:newuserih@cluster0.jffygcs.mongodb.net/?retryWrites=true&w=majority')
+db = mongo_client['ip_reverser']
 collection = db['reversed_urls']
 
 class REV:
