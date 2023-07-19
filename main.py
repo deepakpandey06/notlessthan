@@ -39,7 +39,7 @@ class REV:
 
 if __name__ == '__main__':
     # Read the input from the text file
-    with open('your_input_file.txt', 'r') as urlList:
+    with open('iplistted.txt', 'r') as urlList:
         argFile = urlList.read().splitlines()
 
     for data in argFile:
